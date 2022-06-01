@@ -1,5 +1,4 @@
 .place__paragraph-container {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -9,21 +8,23 @@
     grid-column: 2;
 }
 
+@media screen and (max-width: 768px) {
+    .place__paragraph-container {
+        font-size: 16px;
+        line-height: 1.63;
+    }
+    
+}
+
 @media screen and (max-width: 600px) {
     .place__paragraph-container {
         grid-row: 4;
         grid-column: 1;
-        font-size: 16px;
-        line-height: 1.63;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place__paragraph-container {
-        grid-row: 4;
-        grid-column: 1;
-        font-size: 16px;
-        line-height: 1.63;
         margin: 0 16px 0 16px;
     }
 }

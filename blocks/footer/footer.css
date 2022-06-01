@@ -26,3 +26,9 @@
         gap: 48px;
     }
 }
+
+@media screen and (max-width: 525px) {
+    .footer {
+        margin: 64px 16px 24px 16px;
+    }
+}

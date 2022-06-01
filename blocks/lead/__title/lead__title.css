@@ -2,7 +2,6 @@
   margin: 0 132px 32px 132px;
   text-align: center;
   color: #ffffff;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -12,9 +11,6 @@
 
 @media screen and (max-width: 768px) {
     .lead__title {
-      max-width: 670px;
-      font-size: 80px;
-      line-height: 1.04;
       margin: 0 24px 32px 24px;
     }
   }

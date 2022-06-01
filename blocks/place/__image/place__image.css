@@ -24,6 +24,12 @@
     }
 }
 
+@media screen and (max-width: 625px) {
+    .place__image {
+        max-width: 320px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .place__image {
         max-width: 100%;
