@@ -48,7 +48,6 @@
     .place {
         grid-template-columns: minmax(320px, 1fr) minmax(min-content, max-content);
         grid-template-rows: minmax(min-content, max-content) minmax(320px, 1fr);
-        column-gap: 28px;
     }
     .place:first-of-type {
         margin-top: 88px;
